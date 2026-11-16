@@ -35,7 +35,7 @@ function doPost(e) {
 	+ "</div>";
 
   MailApp.sendEmail({
-	to: "mahdiszakeri@yahoo.co.uk",
+	to: "mahdiszakeri@yahoo.co.uk; mahdiszak@gmail.com;",
 	subject: "New Wedding RSVP - " + attendance,
 	body: emailBody,
 	htmlBody: htmlBody
